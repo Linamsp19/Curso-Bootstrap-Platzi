@@ -90,7 +90,11 @@
             <div class="card">
               <img src="Speakers/sacha.jpg" class="card-img-top" alt="Foto de Sacha">
               <div class="card-body">
-                <h5 class="card-title">Sacha Lifszyc</h5>
+                <h5 class="card-title mb-0">Sacha Lifszyc</h5>
+                <div class="badges mb-2">
+                  <span class="badge badge-warning">JavaScript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -99,7 +103,11 @@
             <div class="card">
               <img src="Speakers/freddy.jpeg" class="card-img-top" alt="Foto de Freddy">
               <div class="card-body">
-                <h5 class="card-title">Freddy Vega</h5>
+                <h5 class="card-title mb-0">Freddy Vega</h5>
+                <div class="badges mb-2">
+                  <span class="badge badge-warning">JavaScript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -108,7 +116,11 @@
             <div class="card">
               <img src="Speakers/leonidas2.jpeg" class="card-img-top" alt="Foto de Leonidas">
               <div class="card-body">
-                <h5 class="card-title">Leonidas Esteban</h5>
+                <h5 class="card-title mb-0">Leonidas Esteban</h5>
+                <div class="badges mb-2">
+                  <span class="badge badge-warning">JavaScript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -117,7 +129,11 @@
             <div class="card">
               <img src="Speakers/cvander.jpeg" class="card-img-top" alt="Foto de Sacha">
               <div class="card-body">
-                <h5 class="card-title">Christian Van Der H.</h5>
+                <h5 class="card-title mb-0">Christian Van Der H.</h5>
+                <div class="badges mb-2">
+                  <span class="badge badge-warning">JavaScript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -126,6 +142,71 @@
       </div>
     </section>
     <!-- /Speakers -->
+
+    <!-- Lugar y fecha -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="imágenes/honolulu.jpg" alt="Ciudad de Honolulu" />
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>Honolulu - Octubre 2025</h2>
+            <p>
+              Honolulu u Honolulú2​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.​ Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
+            </p>
+            <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Lugar y fecha -->
+
+    <!-- Conviertete en orador-->
+    <section id="conviertete-en-orador" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Conviertete en un</small>
+            <h2>Orador</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            Inscríbete como orador para dar una <abbr data-toglle="tooltip" title="Charla de cinco minutos"> charla ignite</abbr>.
+          ¡Cuéntanos de qué quieres hablar!
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="for-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                  <small class="form-text text-muted">
+                    Recuerda incluir un título para tu charla.
+                  </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <button type="button" class="btn btn-platzi btn-block">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Conviertete en orador-->
 
     <!-- footer -->
     <footer id="footer" class="pb-4 pt-4">
@@ -158,5 +239,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </body>
 </html>
